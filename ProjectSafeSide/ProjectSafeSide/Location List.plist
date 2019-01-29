@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PlaceName</key>
+	<array>
+		<string>Nul Stop</string>
+		<string>Sonal hall</string>
+		<string>Garware College</string>
+		<string>SNDT</string>
+		<string>Abhinav Squre</string>
+		<string>Deccan</string>
+		<string>Shivaji Nagar</string>
+	</array>
+	<key>Latitude</key>
+	<array>
+		<string>18.5081</string>
+		<string>18.5105</string>
+		<string>18.5113</string>
+		<string>18.5087</string>
+		<string>18.5055</string>
+		<string>18.5176</string>
+		<string>18.5308</string>
+	</array>
+	<key>Longitude</key>
+	<array>
+		<string>73.8313</string>
+		<string>73.8352</string>
+		<string>73.8276</string>
+		<string>73.8536</string>
+		<string>73.8417</string>
+		<string>73.8475</string>
+	</array>
+</dict>
+</plist>

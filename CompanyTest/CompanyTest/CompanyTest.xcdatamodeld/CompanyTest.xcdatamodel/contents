@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Company" representedClassName="Company" syncable="YES" codeGenerationType="class">
+        <attribute name="comp_Id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="comp_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="has" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Department" inverseName="belongsTo" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES" codeGenerationType="class">
+        <attribute name="dept_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dept_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongsTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="has" inverseEntity="Company" syncable="YES"/>
+        <relationship name="hasa" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="worksFor" inverseEntity="Employee" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="emp_fname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emp_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="emp_lname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="worksFor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="hasa" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Company" positionX="-162" positionY="-18" width="128" height="90"/>
+        <element name="Department" positionX="97" positionY="-126" width="128" height="105"/>
+        <element name="Employee" positionX="151" positionY="66" width="128" height="105"/>
+    </elements>
+</model>

@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D4577A21D22B3C00CEE985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4577921D22B3C00CEE985 /* AppDelegate.swift */; };
+		04D4577C21D22B3C00CEE985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4577B21D22B3C00CEE985 /* ViewController.swift */; };
+		04D4577F21D22B3C00CEE985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D4577D21D22B3C00CEE985 /* Main.storyboard */; };
+		04D4578221D22B3C00CEE985 /* DataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D4578021D22B3C00CEE985 /* DataBase.xcdatamodeld */; };
+		04D4578421D22B3D00CEE985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D4578321D22B3D00CEE985 /* Assets.xcassets */; };
+		04D4578721D22B3D00CEE985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D4578521D22B3D00CEE985 /* LaunchScreen.storyboard */; };
+		04D4579121D22BA200CEE985 /* NSString+Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D4579021D22BA200CEE985 /* NSString+Sqlite.m */; };
+		04D4579421D22BBF00CEE985 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D4579321D22BBF00CEE985 /* libsqlite3.0.tbd */; };
+		04D4579621D22BC800CEE985 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D4579521D22BC800CEE985 /* libsqlite3.tbd */; };
+		04D4579821D2370900CEE985 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4579721D2370900CEE985 /* PersonViewController.swift */; };
+		04D4579A21D2402D00CEE985 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4579921D2402D00CEE985 /* PersonTableViewController.swift */; };
+		04D4579C21D2419200CEE985 /* PersonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4579B21D2419200CEE985 /* PersonClass.swift */; };
+		04D4579E21D2427600CEE985 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4579D21D2427600CEE985 /* PersonTableViewCell.swift */; };
+		04F9032321DA0FCD00986E78 /* ArithmaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9032221DA0FCD00986E78 /* ArithmaticViewController.swift */; };
+		04F9032521DA0FF400986E78 /* ArithmaticDisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9032421DA0FF400986E78 /* ArithmaticDisplayTableViewController.swift */; };
+		04F9032721DA132700986E78 /* ArithmaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9032621DA132700986E78 /* ArithmaticTableViewCell.swift */; };
+		04F9032921DA177500986E78 /* CalculateOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9032821DA177500986E78 /* CalculateOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D4577621D22B3C00CEE985 /* DataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D4577921D22B3C00CEE985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D4577B21D22B3C00CEE985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D4577E21D22B3C00CEE985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D4578121D22B3C00CEE985 /* DataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataBase.xcdatamodel; sourceTree = "<group>"; };
+		04D4578321D22B3D00CEE985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D4578621D22B3D00CEE985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D4578821D22B3D00CEE985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D4578E21D22BA100CEE985 /* DataBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		04D4578F21D22BA200CEE985 /* NSString+Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sqlite.h"; sourceTree = "<group>"; };
+		04D4579021D22BA200CEE985 /* NSString+Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sqlite.m"; sourceTree = "<group>"; };
+		04D4579321D22BBF00CEE985 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		04D4579521D22BC800CEE985 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04D4579721D2370900CEE985 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		04D4579921D2402D00CEE985 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		04D4579B21D2419200CEE985 /* PersonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonClass.swift; sourceTree = "<group>"; };
+		04D4579D21D2427600CEE985 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		04F9032221DA0FCD00986E78 /* ArithmaticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmaticViewController.swift; sourceTree = "<group>"; };
+		04F9032421DA0FF400986E78 /* ArithmaticDisplayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmaticDisplayTableViewController.swift; sourceTree = "<group>"; };
+		04F9032621DA132700986E78 /* ArithmaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmaticTableViewCell.swift; sourceTree = "<group>"; };
+		04F9032821DA177500986E78 /* CalculateOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateOperation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D4577321D22B3C00CEE985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D4579621D22BC800CEE985 /* libsqlite3.tbd in Frameworks */,
+				04D4579421D22BBF00CEE985 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D4576D21D22B3C00CEE985 = {
+			isa = PBXGroup;
+			children = (
+				04D4577821D22B3C00CEE985 /* DataBase */,
+				04D4577721D22B3C00CEE985 /* Products */,
+				04D4579221D22BBE00CEE985 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D4577721D22B3C00CEE985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D4577621D22B3C00CEE985 /* DataBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D4577821D22B3C00CEE985 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				04D4577921D22B3C00CEE985 /* AppDelegate.swift */,
+				04D4578321D22B3D00CEE985 /* Assets.xcassets */,
+				04D4577B21D22B3C00CEE985 /* ViewController.swift */,
+				04D4577D21D22B3C00CEE985 /* Main.storyboard */,
+				04D4578521D22B3D00CEE985 /* LaunchScreen.storyboard */,
+				04D4578821D22B3D00CEE985 /* Info.plist */,
+				04D4578021D22B3C00CEE985 /* DataBase.xcdatamodeld */,
+				04D4578F21D22BA200CEE985 /* NSString+Sqlite.h */,
+				04D4579021D22BA200CEE985 /* NSString+Sqlite.m */,
+				04D4578E21D22BA100CEE985 /* DataBase-Bridging-Header.h */,
+				04D4579721D2370900CEE985 /* PersonViewController.swift */,
+				04D4579921D2402D00CEE985 /* PersonTableViewController.swift */,
+				04D4579B21D2419200CEE985 /* PersonClass.swift */,
+				04D4579D21D2427600CEE985 /* PersonTableViewCell.swift */,
+				04F9032221DA0FCD00986E78 /* ArithmaticViewController.swift */,
+				04F9032421DA0FF400986E78 /* ArithmaticDisplayTableViewController.swift */,
+				04F9032621DA132700986E78 /* ArithmaticTableViewCell.swift */,
+				04F9032821DA177500986E78 /* CalculateOperation.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		04D4579221D22BBE00CEE985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D4579521D22BC800CEE985 /* libsqlite3.tbd */,
+				04D4579321D22BBF00CEE985 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D4577521D22B3C00CEE985 /* DataBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D4578B21D22B3D00CEE985 /* Build configuration list for PBXNativeTarget "DataBase" */;
+			buildPhases = (
+				04D4577221D22B3C00CEE985 /* Sources */,
+				04D4577321D22B3C00CEE985 /* Frameworks */,
+				04D4577421D22B3C00CEE985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBase;
+			productName = DataBase;
+			productReference = 04D4577621D22B3C00CEE985 /* DataBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D4576E21D22B3C00CEE985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pradnya;
+				TargetAttributes = {
+					04D4577521D22B3C00CEE985 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04D4577121D22B3C00CEE985 /* Build configuration list for PBXProject "DataBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D4576D21D22B3C00CEE985;
+			productRefGroup = 04D4577721D22B3C00CEE985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D4577521D22B3C00CEE985 /* DataBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D4577421D22B3C00CEE985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D4578721D22B3D00CEE985 /* LaunchScreen.storyboard in Resources */,
+				04D4578421D22B3D00CEE985 /* Assets.xcassets in Resources */,
+				04D4577F21D22B3C00CEE985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D4577221D22B3C00CEE985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F9032521DA0FF400986E78 /* ArithmaticDisplayTableViewController.swift in Sources */,
+				04D4579821D2370900CEE985 /* PersonViewController.swift in Sources */,
+				04F9032721DA132700986E78 /* ArithmaticTableViewCell.swift in Sources */,
+				04D4577C21D22B3C00CEE985 /* ViewController.swift in Sources */,
+				04D4579A21D2402D00CEE985 /* PersonTableViewController.swift in Sources */,
+				04D4579121D22BA200CEE985 /* NSString+Sqlite.m in Sources */,
+				04D4577A21D22B3C00CEE985 /* AppDelegate.swift in Sources */,
+				04F9032321DA0FCD00986E78 /* ArithmaticViewController.swift in Sources */,
+				04D4579C21D2419200CEE985 /* PersonClass.swift in Sources */,
+				04D4579E21D2427600CEE985 /* PersonTableViewCell.swift in Sources */,
+				04F9032921DA177500986E78 /* CalculateOperation.swift in Sources */,
+				04D4578221D22B3C00CEE985 /* DataBase.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D4577D21D22B3C00CEE985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D4577E21D22B3C00CEE985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D4578521D22B3D00CEE985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D4578621D22B3D00CEE985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D4578921D22B3D00CEE985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D4578A21D22B3D00CEE985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D4578C21D22B3D00CEE985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitcode.DataBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataBase/DataBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04D4578D21D22B3D00CEE985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitcode.DataBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataBase/DataBase-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D4577121D22B3C00CEE985 /* Build configuration list for PBXProject "DataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D4578921D22B3D00CEE985 /* Debug */,
+				04D4578A21D22B3D00CEE985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D4578B21D22B3D00CEE985 /* Build configuration list for PBXNativeTarget "DataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D4578C21D22B3D00CEE985 /* Debug */,
+				04D4578D21D22B3D00CEE985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04D4578021D22B3C00CEE985 /* DataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D4578121D22B3C00CEE985 /* DataBase.xcdatamodel */,
+			);
+			currentVersion = 04D4578121D22B3C00CEE985 /* DataBase.xcdatamodel */;
+			path = DataBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04D4576E21D22B3C00CEE985 /* Project object */;
+}

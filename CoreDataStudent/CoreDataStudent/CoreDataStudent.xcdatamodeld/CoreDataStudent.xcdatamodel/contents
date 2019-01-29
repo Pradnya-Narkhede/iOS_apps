@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Company" representedClassName="Company" syncable="YES" codeGenerationType="class">
+        <attribute name="c_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="c_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="has" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee1" inverseName="worksFor" inverseEntity="Employee1" syncable="YES"/>
+    </entity>
+    <entity name="Contacts" representedClassName="Contacts" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="e_designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="e_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="e_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="e_salary" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Employee1" representedClassName="Employee1" syncable="YES" codeGenerationType="class">
+        <attribute name="e_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="e_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="e_salary" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="worksFor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="has" inverseEntity="Company" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contacts" positionX="-218" positionY="-144" width="128" height="105"/>
+        <element name="Employee" positionX="34" positionY="-153" width="128" height="103"/>
+        <element name="Company" positionX="-72" positionY="81" width="128" height="90"/>
+        <element name="Employee1" positionX="126" positionY="66" width="128" height="105"/>
+    </elements>
+</model>

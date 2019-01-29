@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BC4A9521CDFBC6004BD1D5 /* MapAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4A9421CDFBC6004BD1D5 /* MapAssignmentViewController.swift */; };
+		04BC4A9921CDFF44004BD1D5 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4A9821CDFF44004BD1D5 /* CustomPointAnnotation.swift */; };
+		04BC4A9B21CE015E004BD1D5 /* MapDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4A9A21CE015E004BD1D5 /* MapDisplayViewController.swift */; };
+		04DDB13321D0D46D00D7AF51 /* SevenWondersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDB13221D0D46D00D7AF51 /* SevenWondersViewController.swift */; };
+		04DDB13721D0D7CB00D7AF51 /* CustomSevenWonder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDB13621D0D7CB00D7AF51 /* CustomSevenWonder.swift */; };
+		04DDB13921D0DEE200D7AF51 /* SevenWonderDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDB13821D0DEE200D7AF51 /* SevenWonderDisplayViewController.swift */; };
+		04DDB13B21D0E93600D7AF51 /* WebserviceMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDB13A21D0E93600D7AF51 /* WebserviceMapViewController.swift */; };
+		04DDB13D21D0E94F00D7AF51 /* WebserviceMapDispalyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDB13C21D0E94F00D7AF51 /* WebserviceMapDispalyViewController.swift */; };
+		04DFC88B21CCE50D0000EEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC88A21CCE50D0000EEA3 /* AppDelegate.swift */; };
+		04DFC88D21CCE50D0000EEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC88C21CCE50D0000EEA3 /* ViewController.swift */; };
+		04DFC89021CCE50D0000EEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC88E21CCE50D0000EEA3 /* Main.storyboard */; };
+		04DFC89321CCE50D0000EEA3 /* Touches.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC89121CCE50D0000EEA3 /* Touches.xcdatamodeld */; };
+		04DFC89521CCE50D0000EEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC89421CCE50D0000EEA3 /* Assets.xcassets */; };
+		04DFC89821CCE50D0000EEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC89621CCE50D0000EEA3 /* LaunchScreen.storyboard */; };
+		04DFC8A021CCE56D0000EEA3 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC89F21CCE56D0000EEA3 /* TouchViewController.swift */; };
+		04DFC8A221CCE9930000EEA3 /* TouchAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8A121CCE9930000EEA3 /* TouchAlertViewController.swift */; };
+		04DFC8A421CCF1F50000EEA3 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8A321CCF1F50000EEA3 /* GalleryViewController.swift */; };
+		04DFC8A621CCF5780000EEA3 /* ImageTappedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8A521CCF5780000EEA3 /* ImageTappedViewController.swift */; };
+		04DFC8A821CCFA380000EEA3 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8A721CCFA370000EEA3 /* SongViewController.swift */; };
+		04DFC8AB21CCFB3E0000EEA3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DFC8AA21CCFB3E0000EEA3 /* AVFoundation.framework */; };
+		04DFC8AD21CCFB470000EEA3 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DFC8AC21CCFB470000EEA3 /* AVKit.framework */; };
+		04DFC8AF21CCFB560000EEA3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DFC8AE21CCFB560000EEA3 /* MediaPlayer.framework */; };
+		04DFC8B221CCFCEA0000EEA3 /* Amplifier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC8B121CCFCEA0000EEA3 /* Amplifier.mp3 */; };
+		04DFC8B821CD020D0000EEA3 /* SongAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8B721CD020D0000EEA3 /* SongAssignmentViewController.swift */; };
+		04DFC8BA21CD03280000EEA3 /* TAJ 16-36-30-202.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC8B921CD03280000EEA3 /* TAJ 16-36-30-202.mp4 */; };
+		04DFC8BC21CD08DC0000EEA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFC8BB21CD08DC0000EEA3 /* MapViewController.swift */; };
+		04DFC8BE21CD094D0000EEA3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DFC8BD21CD094D0000EEA3 /* MapKit.framework */; };
+		04DFC8C021CD0B150000EEA3 /* Apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04DFC8BF21CD0B150000EEA3 /* Apple.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BC4A9421CDFBC6004BD1D5 /* MapAssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAssignmentViewController.swift; sourceTree = "<group>"; };
+		04BC4A9821CDFF44004BD1D5 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		04BC4A9A21CE015E004BD1D5 /* MapDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDisplayViewController.swift; sourceTree = "<group>"; };
+		04DDB13221D0D46D00D7AF51 /* SevenWondersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenWondersViewController.swift; sourceTree = "<group>"; };
+		04DDB13621D0D7CB00D7AF51 /* CustomSevenWonder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSevenWonder.swift; sourceTree = "<group>"; };
+		04DDB13821D0DEE200D7AF51 /* SevenWonderDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenWonderDisplayViewController.swift; sourceTree = "<group>"; };
+		04DDB13A21D0E93600D7AF51 /* WebserviceMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceMapViewController.swift; sourceTree = "<group>"; };
+		04DDB13C21D0E94F00D7AF51 /* WebserviceMapDispalyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceMapDispalyViewController.swift; sourceTree = "<group>"; };
+		04DFC88721CCE50D0000EEA3 /* Touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFC88A21CCE50D0000EEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DFC88C21CCE50D0000EEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DFC88F21CCE50D0000EEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DFC89221CCE50D0000EEA3 /* Touches.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touches.xcdatamodel; sourceTree = "<group>"; };
+		04DFC89421CCE50D0000EEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DFC89721CCE50D0000EEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DFC89921CCE50D0000EEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFC89F21CCE56D0000EEA3 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		04DFC8A121CCE9930000EEA3 /* TouchAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchAlertViewController.swift; sourceTree = "<group>"; };
+		04DFC8A321CCF1F50000EEA3 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		04DFC8A521CCF5780000EEA3 /* ImageTappedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTappedViewController.swift; sourceTree = "<group>"; };
+		04DFC8A721CCFA370000EEA3 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		04DFC8AA21CCFB3E0000EEA3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04DFC8AC21CCFB470000EEA3 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		04DFC8AE21CCFB560000EEA3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		04DFC8B121CCFCEA0000EEA3 /* Amplifier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Amplifier.mp3; path = ../../../../Downloads/Amplifier.mp3; sourceTree = "<group>"; };
+		04DFC8B721CD020D0000EEA3 /* SongAssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongAssignmentViewController.swift; sourceTree = "<group>"; };
+		04DFC8B921CD03280000EEA3 /* TAJ 16-36-30-202.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TAJ 16-36-30-202.mp4"; sourceTree = "<group>"; };
+		04DFC8BB21CD08DC0000EEA3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		04DFC8BD21CD094D0000EEA3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04DFC8BF21CD0B150000EEA3 /* Apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DFC88421CCE50D0000EEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFC8BE21CD094D0000EEA3 /* MapKit.framework in Frameworks */,
+				04DFC8AF21CCFB560000EEA3 /* MediaPlayer.framework in Frameworks */,
+				04DFC8AD21CCFB470000EEA3 /* AVKit.framework in Frameworks */,
+				04DFC8AB21CCFB3E0000EEA3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DFC87E21CCE50D0000EEA3 = {
+			isa = PBXGroup;
+			children = (
+				04DFC88921CCE50D0000EEA3 /* Touches */,
+				04DFC88821CCE50D0000EEA3 /* Products */,
+				04DFC8A921CCFB3E0000EEA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DFC88821CCE50D0000EEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DFC88721CCE50D0000EEA3 /* Touches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DFC88921CCE50D0000EEA3 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				04DFC88A21CCE50D0000EEA3 /* AppDelegate.swift */,
+				04DFC88C21CCE50D0000EEA3 /* ViewController.swift */,
+				04DFC88E21CCE50D0000EEA3 /* Main.storyboard */,
+				04DFC89421CCE50D0000EEA3 /* Assets.xcassets */,
+				04DFC89621CCE50D0000EEA3 /* LaunchScreen.storyboard */,
+				04DFC8BF21CD0B150000EEA3 /* Apple.jpeg */,
+				04DFC8B921CD03280000EEA3 /* TAJ 16-36-30-202.mp4 */,
+				04DFC89921CCE50D0000EEA3 /* Info.plist */,
+				04DFC89121CCE50D0000EEA3 /* Touches.xcdatamodeld */,
+				04DFC8B121CCFCEA0000EEA3 /* Amplifier.mp3 */,
+				04DFC89F21CCE56D0000EEA3 /* TouchViewController.swift */,
+				04DFC8A121CCE9930000EEA3 /* TouchAlertViewController.swift */,
+				04DFC8A321CCF1F50000EEA3 /* GalleryViewController.swift */,
+				04DFC8A521CCF5780000EEA3 /* ImageTappedViewController.swift */,
+				04DFC8A721CCFA370000EEA3 /* SongViewController.swift */,
+				04DFC8B721CD020D0000EEA3 /* SongAssignmentViewController.swift */,
+				04DFC8BB21CD08DC0000EEA3 /* MapViewController.swift */,
+				04BC4A9421CDFBC6004BD1D5 /* MapAssignmentViewController.swift */,
+				04BC4A9821CDFF44004BD1D5 /* CustomPointAnnotation.swift */,
+				04BC4A9A21CE015E004BD1D5 /* MapDisplayViewController.swift */,
+				04DDB13221D0D46D00D7AF51 /* SevenWondersViewController.swift */,
+				04DDB13621D0D7CB00D7AF51 /* CustomSevenWonder.swift */,
+				04DDB13821D0DEE200D7AF51 /* SevenWonderDisplayViewController.swift */,
+				04DDB13A21D0E93600D7AF51 /* WebserviceMapViewController.swift */,
+				04DDB13C21D0E94F00D7AF51 /* WebserviceMapDispalyViewController.swift */,
+			);
+			path = Touches;
+			sourceTree = "<group>";
+		};
+		04DFC8A921CCFB3E0000EEA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DFC8BD21CD094D0000EEA3 /* MapKit.framework */,
+				04DFC8AE21CCFB560000EEA3 /* MediaPlayer.framework */,
+				04DFC8AC21CCFB470000EEA3 /* AVKit.framework */,
+				04DFC8AA21CCFB3E0000EEA3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DFC88621CCE50D0000EEA3 /* Touches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFC89C21CCE50D0000EEA3 /* Build configuration list for PBXNativeTarget "Touches" */;
+			buildPhases = (
+				04DFC88321CCE50D0000EEA3 /* Sources */,
+				04DFC88421CCE50D0000EEA3 /* Frameworks */,
+				04DFC88521CCE50D0000EEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touches;
+			productName = Touches;
+			productReference = 04DFC88721CCE50D0000EEA3 /* Touches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFC87F21CCE50D0000EEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pradnya;
+				TargetAttributes = {
+					04DFC88621CCE50D0000EEA3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04DFC88221CCE50D0000EEA3 /* Build configuration list for PBXProject "Touches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DFC87E21CCE50D0000EEA3;
+			productRefGroup = 04DFC88821CCE50D0000EEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DFC88621CCE50D0000EEA3 /* Touches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DFC88521CCE50D0000EEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFC8B221CCFCEA0000EEA3 /* Amplifier.mp3 in Resources */,
+				04DFC89821CCE50D0000EEA3 /* LaunchScreen.storyboard in Resources */,
+				04DFC8C021CD0B150000EEA3 /* Apple.jpeg in Resources */,
+				04DFC89521CCE50D0000EEA3 /* Assets.xcassets in Resources */,
+				04DFC89021CCE50D0000EEA3 /* Main.storyboard in Resources */,
+				04DFC8BA21CD03280000EEA3 /* TAJ 16-36-30-202.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DFC88321CCE50D0000EEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFC88D21CCE50D0000EEA3 /* ViewController.swift in Sources */,
+				04BC4A9521CDFBC6004BD1D5 /* MapAssignmentViewController.swift in Sources */,
+				04DFC8B821CD020D0000EEA3 /* SongAssignmentViewController.swift in Sources */,
+				04DDB13D21D0E94F00D7AF51 /* WebserviceMapDispalyViewController.swift in Sources */,
+				04DFC8A821CCFA380000EEA3 /* SongViewController.swift in Sources */,
+				04DFC8BC21CD08DC0000EEA3 /* MapViewController.swift in Sources */,
+				04DFC8A221CCE9930000EEA3 /* TouchAlertViewController.swift in Sources */,
+				04DDB13321D0D46D00D7AF51 /* SevenWondersViewController.swift in Sources */,
+				04DFC89321CCE50D0000EEA3 /* Touches.xcdatamodeld in Sources */,
+				04BC4A9B21CE015E004BD1D5 /* MapDisplayViewController.swift in Sources */,
+				04DFC8A421CCF1F50000EEA3 /* GalleryViewController.swift in Sources */,
+				04DFC8A021CCE56D0000EEA3 /* TouchViewController.swift in Sources */,
+				04DDB13B21D0E93600D7AF51 /* WebserviceMapViewController.swift in Sources */,
+				04DFC88B21CCE50D0000EEA3 /* AppDelegate.swift in Sources */,
+				04DDB13721D0D7CB00D7AF51 /* CustomSevenWonder.swift in Sources */,
+				04BC4A9921CDFF44004BD1D5 /* CustomPointAnnotation.swift in Sources */,
+				04DDB13921D0DEE200D7AF51 /* SevenWonderDisplayViewController.swift in Sources */,
+				04DFC8A621CCF5780000EEA3 /* ImageTappedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04DFC88E21CCE50D0000EEA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DFC88F21CCE50D0000EEA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DFC89621CCE50D0000EEA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DFC89721CCE50D0000EEA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DFC89A21CCE50D0000EEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DFC89B21CCE50D0000EEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DFC89D21CCE50D0000EEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitcode.Touches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04DFC89E21CCE50D0000EEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitcode.Touches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFC88221CCE50D0000EEA3 /* Build configuration list for PBXProject "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFC89A21CCE50D0000EEA3 /* Debug */,
+				04DFC89B21CCE50D0000EEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFC89C21CCE50D0000EEA3 /* Build configuration list for PBXNativeTarget "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFC89D21CCE50D0000EEA3 /* Debug */,
+				04DFC89E21CCE50D0000EEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04DFC89121CCE50D0000EEA3 /* Touches.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04DFC89221CCE50D0000EEA3 /* Touches.xcdatamodel */,
+			);
+			currentVersion = 04DFC89221CCE50D0000EEA3 /* Touches.xcdatamodel */;
+			path = Touches.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04DFC87F21CCE50D0000EEA3 /* Project object */;
+}

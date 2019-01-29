@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CollegeName</key>
+	<string>Modern College</string>
+	<key>Roll_no</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+	</array>
+	<key>Names</key>
+	<array>
+		<string>Pradnya</string>
+		<string>Sneha</string>
+		<string>Rishikesh</string>
+		<string>Priti</string>
+		<string>Sushmita</string>
+	</array>
+</dict>
+</plist>
